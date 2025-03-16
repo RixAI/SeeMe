@@ -78,3 +78,8 @@ def start() -> None:
         update_status('Processing to video succeed!')
     else:
         update_status('Processing to video failed!')
+
+
+def run():
+    from roop.ui import start_ui
+    start_ui()
